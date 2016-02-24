@@ -64,8 +64,12 @@
 }
 .home-slider-whitespace{
 	position: relative;
-	height: 100%;
+	height: 100vh;
 	width: 100%;
+	margin-bottom: 4rem;
+}
+.home-slider-whitespace:after{
+	content:' ';
 }
 .home-slider{
 	position: absolute;
